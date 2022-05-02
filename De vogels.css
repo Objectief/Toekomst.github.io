@@ -1,0 +1,78 @@
+
+<HEAD>
+<STYLE type="text/css" class='stylesheetnr1'
+{"font-size : 8 pt;
+color : #0000ff;
+background-color:#0088ff ;/* kleur blauw */
+}
+body
+{
+ background-color:#0088ff ;/* kleur blauw */
+ color: #00ee44;/* kleur groen */
+ }
+header{
+ background-color: #f08080;/* kleur rose */
+ width: 100%;
+ height: 100px;
+ }
+h1{
+text-align:center;Color: white;font-size:30px;font-weight:bold;font-family:sans-serif;font-style:italic;
+}
+table, td, th { border:5px solid white; padding:0 10px 0 10px;}
+table {width:100%; }
+td {height:50px; }
+#Ekster {
+   color:black; text-align: center;font-style: italic;font-size: 20px;
+}
+#Eksterplaatje {
+  background:blue;
+  }
+#Gaai {
+  	color:red; text-align: center;font-style: italic;font-size: 20px;
+}
+#Gaaiplaatje {
+  background:red;
+}
+#Houtduif {
+  	color:brown; text-align: center;font-style: italic;font-size: 20px;
+}
+#Houtduifplaatje {
+  background:purple;
+}
+#Huismus {
+  	color:yellow; text-align: center;font-style: italic;font-size: 20px;
+}
+#Huismusplaatje {
+  background:maroon;
+}
+#Kauw{
+  	color:blue; text-align: center;font-style: italic;font-size: 20px;
+}
+#Kauwplaatje {
+  background:#000000;/* kleur zwart */
+}
+#Meeuwen {
+  color:orange; text-align: center;font-style: italic;font-size: 20px;
+}
+#Meeuwenplaatje {
+  background:lime;
+}
+#Merel {
+  	color:maroon; text-align: center;font-style: italic;font-size: 20px;
+}
+#Merelplaatje {
+  background:orange;
+}
+#TurkseTortel {
+  	color:purple; text-align: center;font-style: italic;font-size: 20px;
+}
+#TurkseTortelplaatje {
+  background:silver;
+}
+ footer{
+ background-color: #ffa07a;/* kleur zalm rose */
+ width: 100%;
+ height: 100px;
+ }
+ </STYLE>
+ </HEAD>
