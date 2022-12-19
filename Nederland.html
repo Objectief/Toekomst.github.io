@@ -1,56 +1,57 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html>
 <head>
-<script
-src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-$("#knop").click(function() {
-var naam = $("#idTekstveld1").val();
-var inwoners = $("#idTekstveld2").val();
-var vlag = $("#idTekstveld3").val();
-window.alert(
-" Wat is de hoofdstad van Nederland? " + naam +
-" Hoeveel inwoners telt Nederland? " + inwoners +
-" Hoeveel kleuren heeft de vlag van Nederland? " + vlag);
-});
-});
-</script>
-<script src="http://code.jquery.com/jquery-3.1.0.min.js">
-</script>
-<script type="text/javascript">
-$(document).ready(function() {
-$("#verberg").click(function() {
-$("p").hide();
-$("h3").hide();
-});
-$("#toon-1").click(function() {
-$("p").show();
-$("h3").show();
-});
-});
-</script>
-<script type="text/javascript">
-$(document).ready(function() {
-$("#verberg").click(function() {
-$("form").hide();
-});
-$("#toon-2").click(function() {
-$("form").show();
-});
-});
-</script>
-<script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js">
-</script>
-<link rel="stylesheet"
-href="http://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
-<script type="text/javascript">
-$(function() {
-$("#accordion").accordion();
-});
-</script>
+  <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
 </head>
 <body>
+  <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+  $("#knop").click(function() {
+  var naam = $("#idTekstveld1").val();
+  var inwoners = $("#idTekstveld2").val();
+  var vlag = $("#idTekstveld3").val();
+  window.alert(
+  " Wat is de hoofdstad van Nederland? " + naam +
+  " Hoeveel inwoners telt Nederland? " + inwoners +
+  " Hoeveel kleuren heeft de vlag van Nederland? " + vlag);
+  });
+  });
+  </script>
+  <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+  $("#verberg").click(function() {
+  $("p").hide();
+  $("h3").hide();
+  });
+  $("#toon-1").click(function() {
+  $("p").show();
+  $("h3").show();
+  });
+  });
+  </script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+  $("#verberg").click(function() {
+  $("form").hide();
+  });
+  $("#toon-2").click(function() {
+  $("form").show();
+  });
+  });
+  </script>
+  <script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js">
+  </script>
+  <link rel="stylesheet"
+  href="http://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+  <script type="text/javascript">
+  $(function() {
+  $("#accordion").accordion();
+  });
+  </script>
 <h4> Toelichting over Nederland <h4>
 <button id="verberg">Verberg</button>
 <button id="toon-2">Toon-Form</button>
