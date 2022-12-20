@@ -7,7 +7,7 @@
 </head>
 <body>
   <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
-  <script type="text/javascript">
+  <script>
   $(document).ready(function() {
   $("#knop").click(function() {
   var naam = $("#idTekstveld1").val();
@@ -21,7 +21,7 @@
   });
   </script>
   <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
-  <script type="text/javascript">
+  <script>
   $(document).ready(function() {
   $("#verberg").click(function() {
   $("p").hide();
@@ -33,7 +33,7 @@
   });
   });
   </script>
-  <script type="text/javascript">
+  <script>
   $(document).ready(function() {
   $("#verberg").click(function() {
   $("form").hide();
@@ -41,15 +41,6 @@
   $("#toon-2").click(function() {
   $("form").show();
   });
-  });
-  </script>
-  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js">
-  </script>
-  <link rel="stylesheet"
-  href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-  <script type="text/javascript">
-  $(function() {
-  $("#accordion").accordion();
   });
   </script>
   <h4> Toelichting over Nederland <h4>
@@ -69,6 +60,13 @@ value="Klik op deze knop">
 <hr>
 <br>
 </form>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<script>
+$(function() {
+$("#accordion").accordion();
+});
+</script>
 <div id="accordion">
 <h3>Wat is de nationale bloem in Nederland?</h3>
 <div>
